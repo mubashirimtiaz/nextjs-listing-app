@@ -3,10 +3,13 @@ const Ninjas = () => {
   return (
     <div>
       <Head>
-        <title>All Ninjas</title>
+        <title>Ninja List | All Ninjas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>All Ninjas</h1>
+      <h1 className="text-grey-600 text-6xl font-black">
+        Ninja
+        <span className="text-blue-500"> List</span>
+      </h1>
     </div>
   );
 };
