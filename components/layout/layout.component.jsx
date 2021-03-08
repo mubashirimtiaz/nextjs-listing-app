@@ -3,9 +3,9 @@ import Navbar from "../navbar/navbar.component";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="text-gray-700">
       <Navbar />
-      {children}
+      <div className="px-4">{children}</div>
       <Footer />
     </div>
   );
