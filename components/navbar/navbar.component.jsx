@@ -7,7 +7,7 @@ const Navbar = () => {
         <Image src="/ninja-logo.png" width="50" height="50" alt="ninja list" />
         <Link href="/">
           <a>
-            <span className="text-2xl">
+            <span className="text-xl md:text-2xl">
               NINJA
               <span className="text-blue-500">LIST</span>
             </span>
@@ -19,7 +19,7 @@ const Navbar = () => {
           <a>Home</a>
         </Link>
         <Link href="/about">
-          <a className="mx-3">About</a>
+          <a className="mx2 md:mx-3">About</a>
         </Link>
         <Link href="/ninjas">
           <a>Ninja List</a>
