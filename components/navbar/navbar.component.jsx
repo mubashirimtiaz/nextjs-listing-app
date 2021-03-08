@@ -19,7 +19,7 @@ const Navbar = () => {
           <a>Home</a>
         </Link>
         <Link href="/about">
-          <a className="mx2 md:mx-3">About</a>
+          <a className="mx-2 md:mx-3">About</a>
         </Link>
         <Link href="/ninjas">
           <a>Ninja List</a>
