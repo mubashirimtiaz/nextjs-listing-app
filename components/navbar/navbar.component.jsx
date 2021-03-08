@@ -2,13 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <nav className="flex mb-5 justify-between p-4 items-center border-b shadow-md border-t-4">
+    <nav className="flex  justify-between p-4 items-center border-b shadow-md border-t-4">
       <div className="flex items-center">
         <Image src="/ninja-logo.png" width="50" height="50" alt="ninja list" />
-        <span className="text-2xl">
-          NINJA
-          <span className="text-blue-500">LIST</span>
-        </span>
+        <Link href="/">
+          <a>
+            <span className="text-2xl">
+              NINJA
+              <span className="text-blue-500">LIST</span>
+            </span>
+          </a>
+        </Link>
       </div>
       <div>
         <Link href="/">
