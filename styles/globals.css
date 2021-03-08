@@ -2,5 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 .btn {
-  @apply block w-56 py-3 my-5 mx-auto bg-blue-500 text-white rounded text-center hover:shadow-inner;
+  @apply block w-56 py-3 my-5 bg-blue-500 text-white rounded text-center hover:shadow-inner;
 }
